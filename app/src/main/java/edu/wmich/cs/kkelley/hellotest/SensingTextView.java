@@ -60,7 +60,7 @@ So you should read from Sensor.TYPE_ACCELEROMETER as well as from Sensor.TYPE_MA
         newstr=newstr.concat(String.format("world magnetic field\nx: %f\ny:%f\nz:%f",
                 new Object[] { mGeomagnetic_W[0],mGeomagnetic_W[1],mGeomagnetic_W[2] } ));
 
-        //github is broken. keeps saying it is in it when it is not
+        //github is broken. keeps saying it is in it when it is not. jwaua
        /* not the best way
         float[] rotationMatrixFromOrientation = getRotationMatrixFromOrientation(orientation);
         newstr=newstr.concat(String.format("\norientation matrix\n%f %f %f\n%f %f %f\n%f %f %f\n",
